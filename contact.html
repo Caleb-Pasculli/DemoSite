@@ -23,7 +23,7 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-md-4">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-4">
         <div class="container">
             <a href="" class="navbar-brand">Caleb Pasculli</a>
 
@@ -54,33 +54,43 @@
 
     <section>
         <div class="container">
-                    <h1>
-                        Contact Me
-                    </h1>
-                    <form action="https://formsubmit.co/caleb.pasculli@gmail.com" method="POST" class="row g-3">
-                        <div class="col-md-6">
-                            <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstName" required>
+                          
+                    <div class="card bg-dark text-light pt-5 px-5 mb-4"> 
+                        <h1 class="card-title mb-3 text-center">
+                            Contact Me
+                        </h1>    
+                        <div class="card-body text-start">
+                            <div class="h4 mb-3">
+                                <form action="https://formsubmit.co/caleb.pasculli@gmail.com" method="POST" class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <label for="emailInfo" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="emailInfo" required>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phoneNumber">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="comments" class="form-label">Comments</label>
+                                        <textarea class="form-control" name="" id="comments" cols="3"></textarea>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+
                         </div>
-                        <div class="col-md-6">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lastName" required>
-                        </div>
-                        <div class="col-md-8">
-                            <label for="emailInfo" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="emailInfo" required>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="phoneNumber" class="form-label">Phone Number</label>
-                            <input type="text" class="form-control" id="phoneNumber">
-                        </div>
-                        <div class="col-md-12">
-                            <label for="comments" class="form-label">Comments</label>
-                            <textarea class="form-control" name="" id="comments" cols="3"></textarea>
-                        </div>
-                    </form>
+                    </div>
                     
-                    <a href="" class="btn btn-primary mt-5"> Submit</a>
         </div>
     </section>
 
