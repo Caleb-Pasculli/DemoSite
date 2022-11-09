@@ -1,139 +1,217 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html class="h-100">
+<html lang="en" class="h-100vh w-100">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caleb Pasculli</title>
+    <title>PE | Home</title>
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
     rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
     crossorigin="anonymous"
   />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-  />
-  <link
-    href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="style.css" />
 </head>
+
+
 <body>
-    
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-md-4">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light md-4">
         <div class="container">
-            <a href="" class="navbar-brand">Caleb Pasculli</a>
+            <a href="" class="navbar-brand">
+                <img src="logo-small.png" alt="">
+            </a>
 
             <button 
             class="navbar-toggler" 
-            type="button" 
+            type="button"
             data-bs-toggle="collapse" 
             data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+        </button>
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="services.html" class="nav-link">Services</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li><li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li><li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <a id="home"></a>
+<div
+    class="bg-image img-fluid"
+    style="
+      background-image: url('home-hero_1550x1170.jpg');
+      height:100vh;
+      ;
+    ">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+        <div class="d-flex position-relative justify-content-center align-items-center h-100 text-light p-5 text-center ">
+            <div class="d-flex">
+                    <h1 class="display-1 fw-normal mx-5">We are Pasculli Enterprises</h1> 
+            </div>
+        </div>
+    </div>
+</div>
+<a id="about"></a>
 
-    <section class="bg-dark text-light p-5 text-center text-md-start">
+<section class=" mt-4 p-3 text-center bg-dark text-light" style="background-color:#d3d3d3;">
+    <div class="container">
         <div>
-            <div class="d-md-flex align-items-center justify-content-between">
-                <div>
-                    <h1>Hi, I'm <span class="text-warning">Caleb Pasculli</span></h1> 
-                    <p class="lead" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nisi officiis, repudiandae magnam commodi ipsum.</p>
-                </div>
-            <img class="img-fluid w-50" src="images/showcase.svg" alt="">
-            </div>
-            
+            <h1 class="text-center">About Us</h1>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="bg-primary text-light mt-4 p-3 text-center">
-        <div class="container">
-            <div>
-                <h3 class="text-center">Overview</h3>
-            </div>
+<section class="mt-3 p-5 text-center">
+    <div class="d-md-flex align-items-center">
+        
+    <div class="col-md-8 pb-5  container">
+        <h3 class="pb-3"> Pasculli Enterprises Pty Ltd is owned and operated by John Pasculli and his team, who offer top quality, cost effective asphalt work.</h3>                      
+        <p class="mt-5  fs-5 lh-lg "> The company has been operating since 1984 and has completed many works for well known organisations within South Australia.
+
+            Pasculli Enterprises is a member of the Civil Contractors Federation. The company works under the CCF Integrated Management System and holds the DPTI prequalification to perform A1 asphalt works.
+                
+            John Pasculli prides himself on honest, professional and quality customer service. </p>         
+    </div>
+
+    <div class="col-md-3 p-4 bg-dark text-light" style="background-color:#d3d3d3;">
+        <h3 class="mb-4">Our Services</h3>
+        <ul class="" style="
+        list-style:none;
+         padding: 0;
+         margin: 0;
+         font-size: 20px;">
+            <li >Hot Mixed Asphalt</li>
+            <li class="mt-1">Repairs and Reinstatement</li>
+            <li class="mt-1">Trench Reinstatement</li>
+            <li class="mt-1">Pothole Repairs</li>
+            <li class="mt-1">Car Parks</li>
+            <li class="mt-1">Driveways</li>
+            <li class="mt-1">Footpaths</li>
+            <li class="mt-1">Speedhumps</li>
+            <li class="mt-1">Deep Lift Saw Cutting</li>
+            <li class="mt-1">Concrete</li>
+            <li class="mt-1">Paving</li>
+        </ul>
+
+    </div>
+
+
+
+    </div>
+    
+                    
+    
+
+
+
+
+
+                          
+                          <!-- <div class="card-group">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <img src="pothole.jfif" class="card-img-bottom" alt="...">
+                              </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <img src="pothole.jfif" class="card-img-bottom" alt="...">
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <img src="pothole.jfif" class="card-img-bottom" alt="...">
+                                </div>
+                              </div>
+                          </div>
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <img src="pothole.jfif" class="card-img-bottom" alt="...">
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <img src="pothole.jfif" class="card-img-bottom" alt="...">
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <img src="pothole.jfif" class="card-img-bottom" alt="...">
+                                </div>
+                            </div>
+                            </div>
+                        </div> -->
+
+
+
+
+</section>
+
+
+<section class=" bg-dark text-light" >
+    <div class="d-lg-flex justify-content-evenly">
+        <div class=" text-center">
+            <h3 class="pt-5 mb-3">
+            Our Details
+            </h3>
+            <ul 
+            style="
+            list-style:none;
+             padding: 0;
+             margin: 0;">
+                <li>128 Main Street,
+                    Beverley SA 5009</li>
+                    <li>P (08) 8345 4112</li>
+                    <li>F (08) 8345 4142</li>
+                    <li>M 0418 807 093</li>
+                    <li>pe@pasculli.com.au</li>
+                    <li>A.B.N. 66 008 049 447</li>
+                    <li>Monday - Friday 7.30am - 4.00pm</li>
+                    
+                    
+            </ul>
         </div>
-    </section>
-
-    <section class="">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md py-md-4 pt-3">
-                    <div class="card bg-dark text-light"> 
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-laptop"></i>
-                            </div>
-                            <h3 class="card-title mb-3">
-                                Virtual
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores praesentium earum! Eum nostrum ea nobis eligendi delectus! Saepe, sapiente.
-                            </p>
-                            <a href="" class="btn btn-primary"> Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md py-md-4 pt-3">
-                    <div class="card bg-dark text-light"> 
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-laptop"></i>
-                            </div>
-                            <h3 class="card-title mb-3">
-                                Virtual
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores praesentium earum! Eum nostrum ea nobis eligendi delectus! Saepe, sapiente.
-                            </p>
-                            <a href="" class="btn btn-primary"> Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 py-md-4 pt-3">
-                    <div class="card bg-dark text-light"> 
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-laptop"></i>
-                            </div>
-                            <h3 class="card-title mb-3">
-                                Virtual Bottom
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores praesentium earum! Eum nostrum ea nobis eligendi delectus! Saepe, sapiente.
-                            </p>
-                            <a href="" class="btn btn-primary"> Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+        <div class="text-center">
+            <h3 class="pt-5">
+                Our Certifications
+            </h3>
+            <div class="d-flex justify-content-center img-fluid pt-3 my-5">
+                <img class="mx-2 " src="Certified-Logo.png" alt="">
+                <img class="mx-2"src="CCF-colour.png" alt="">
+                <img class="mx-2"src="JASANZ-CMYK.png" alt="">
         </div>
-    </section>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <iframe class="map-iframe" width="450" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?q=128+Main+Street,+Beverley+SA+5009&amp;ie=UTF8&amp;hq=&amp;hnear=128+Main+St,+Beverley+South+Australia+5009&amp;t=m&amp;z=14&amp;ll=-34.901783,138.549304&amp;output=embed"></iframe>
+        </div>
+    
+    </div>
+</section>
+
+<a id="contact"></a>
 
 
-      <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"
+      ></script>
 </body>
 </html>
